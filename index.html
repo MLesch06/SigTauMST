@@ -1,46 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sigma Tau Gamma - Building Noble Men</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #00274d;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img.logo {
+      height: 60px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .banner {
+      width: 100%;
+      height: 400px;
+      background: url('house-banner.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 3em;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px #000;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Sigma Tau Gamma</h1>
-    <p class="motto">Building Noble Men</p>
+    <img src="logo.png" alt="Fraternity Logo" class="logo" />
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="members.html">Active Members</a></li>
-      </ul>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="members.html">Active Members</a>
+      <a href="social.html">Social Media</a>
     </nav>
   </header>
 
+  <div class="banner">
+    Welcome to Sigma Tau Gamma
+  </div>
+
   <main>
-    <section class="intro">
-      <h2>Welcome to the Sigma Tau Gamma Fraternity</h2>
-      <p>We are proud to uphold the values of Integrity, Excellence, Leadership, Citizenship, Learning, and Brotherhood at Missouri S&T.</p>
-    </section>
-
-    <section class="social">
-      <h2>Follow Us on Social Media</h2>
-      <!-- Example embedded Instagram post -->
-      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/EXAMPLE/" data-instgrm-version="14"></blockquote>
-      <script async src="https://www.instagram.com/embed.js"></script>
-    </section>
-
-    <section class="contact">
-      <h2>Contact Us</h2>
-      <p>Email: <a href="mailto:sigtaugammachapter@email.com">sigtaugammachapter@email.com</a></p>
-      <p>Address: Missouri University of Science and Technology, Rolla, MO</p>
-    </section>
+    <h1>Building Noble Men</h1>
+    <p>
+      Welcome to the official website of the Sigma Tau Gamma Fraternity at Missouri S&T. We strive to build noble men through leadership, learning, integrity, excellence, citizenship, and brotherhood.
+    </p>
+    <h2>Contact Us</h2>
+    <p>Email: info@sigtaumst.org<br />Phone: (123) 456-7890</p>
   </main>
 
   <footer>
-    <p>&copy; 2025 Sigma Tau Gamma - Missouri S&T Chapter</p>
+    &copy; 2025 Sigma Tau Gamma - Missouri S&T Chapter
   </footer>
 </body>
 </html>

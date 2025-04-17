@@ -15,7 +15,7 @@ body, html {
 
 /* Header */
 header {
-  background-color: #00274d;
+  background-color: #00274d; /* Navy Blue */
   color: white;
   padding: 15px 30px;
   display: flex;

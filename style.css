@@ -45,6 +45,10 @@ body {
     text-shadow: 2px 2px 4px #000;
   }
   
+  .banner main1 {
+    padding: 20px;
+    text-align: center;
+  }
   
   main {
     padding: 20px;

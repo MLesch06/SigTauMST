@@ -1,13 +1,22 @@
 /* about-style.css */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
 .about-banner {
-    background-color: white; /* Azure background */
-    color: #00274d;
+    background-color: #00274d; /* Azure background */
+    color: white;
     padding: 0px; 
     text-align: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
   }  
   
   body {

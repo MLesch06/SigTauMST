@@ -37,6 +37,7 @@ body {
     background: url('house-banner.jpg') center center no-repeat;
     background-size: cover; /* Ensures the image fully covers the banner area */
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;

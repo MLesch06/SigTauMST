@@ -1,0 +1,38 @@
+/* about-style.css */
+
+.about-banner {
+    background-color: #00274d; /* Azure background */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    font-family: Arial, sans-serif;
+    color: #00274d;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  

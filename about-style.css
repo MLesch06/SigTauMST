@@ -1,13 +1,5 @@
 /* about-style.css */
-
-/* .about-banner {
-    background-color: #00274d; /* Azure background */
-    /* color: white;
-    padding: 40px 20px;
-    text-align: center;
-  } */ 
-  
-  main {
+main {
     padding: 20px;
     text-align: left;
     max-width: 800px;
@@ -29,15 +21,21 @@
     margin-bottom: 10px;
   }
   
-  footer {
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+  blockquote {
+    font-style: italic;
+    background-color: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 20px 0;
+    padding: 10px 20px;
   }
-    
+  
+  address {
+    font-style: normal;
+    line-height: 1.6;
+  }
+  
   header {
-    background-color: navy; /* Navy Blue */
+    background-color: #00274d;
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -47,4 +45,14 @@
   
   header img.logo {
     height: 60px;
+    width: auto;
   }
+  
+  footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: #00274d;
+  }
+  

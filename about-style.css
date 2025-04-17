@@ -1,5 +1,4 @@
-/* about-style.css */
-
+/* Reset & Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -9,71 +8,88 @@
 body, html {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Azure */
+  color: #00274d;
 }
 
+/* Header */
+header {
+  background-color: #00274d;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img.logo {
+  height: 60px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Banner */
 .about-banner {
-    background-color: #00274d; /* Azure background */
-    color: white;
-    padding: 0px; 
-    text-align: center;
+  background-color: white;
+  color: #00274d;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: 2px solid #00274d;
+}
 
-  }  
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff; /* Azure */
-    color: azure; /* Deep blue text */
-  }
+/* Main Layout */
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
-  main {
-    padding: 20px;
-    text-align: left;
-    margin: 0 auto;
-  }
-  
-  h1, h2 {
-    font-family: Arial, sans-serif;
-    color: #00274d;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  ul li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  footer {
-    background-color: #00274d;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-  }
-    
-  header {
-    background-color:  azure; /* Navy Blue */
-    color: white;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  header img.logo {
-    height: 60px;
-  }
+/* Section Cards */
+section {
+  background-color: white;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
 
-  nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
+section h2 {
+  margin-bottom: 15px;
+  font-size: 1.8em;
+  color: #00274d;
+}
+
+section p, section ul li {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #00274d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}

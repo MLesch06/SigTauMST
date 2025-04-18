@@ -1,0 +1,101 @@
+/* members-style.css */
+
+/* Reset & Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #00274d;
+  }
+  
+  /* Header */
+  header {
+    background-color: #00274d;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header img.logo {
+    height: 60px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Page Banner */
+  .page-banner {
+    background-color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 2px solid #00274d;
+  }
+  
+  .page-banner h1 {
+    font-size: 2.5em;
+    color: #00274d;
+  }
+  
+  /* Members Grid */
+  .members-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  /* Member Card */
+  .member-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .member-card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .member-card h2 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    color: #00274d;
+  }
+  
+  .member-card p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #00274d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    margin-top: 40px;
+  }
+  

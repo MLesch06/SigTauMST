@@ -19,10 +19,13 @@
       color: #00274d;
     }
 
-    iframe.lightwidget-widget {
-      width: 100%;
-      min-height: 600px;
-      border: none;
+    .embedsocial-hashtag {
+      margin-top: 20px;
+    }
+
+    /* Optional: Hide branding if paid plan or customize size */
+    .es-widget-branding-text {
+      font-size: 0.8em;
     }
   </style>
 </head>
@@ -44,14 +47,27 @@
   <main class="social-container">
     <h1>Follow Us on Instagram</h1>
 
-    <!-- Live Instagram Feed via LightWidget -->
-    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-    <iframe src="//lightwidget.com/widgets/876c8b96c24f5392a6b5b89e7ee81e51.html" 
-            scrolling="no" 
-            allowtransparency="true" 
-            class="lightwidget-widget" 
-            style="width:100%;border:0;overflow:hidden;">
-    </iframe>
+    <!-- EmbedSocial Feed -->
+    <div class="embedsocial-hashtag" data-ref="ec11e5b0b7707eca30633391d1bc99b7d54a060a">
+      <a class="feed-powered-by-es feed-powered-by-es-feed-img es-widget-branding" 
+         href="https://embedsocial.com/social-media-aggregator/" 
+         target="_blank" 
+         title="Instagram widget">
+        <img src="https://embedsocial.com/cdn/icon/embedsocial-logo.webp" alt="EmbedSocial">
+        <div class="es-widget-branding-text">Instagram widget</div>
+      </a>
+    </div>
+
+    <script>
+      (function(d, s, id) {
+        var js;
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://embedsocial.com/cdn/ht.js";
+        d.getElementsByTagName("head")[0].appendChild(js);
+      }(document, "script", "EmbedSocialHashtagScript"));
+    </script>
   </main>
 
   <!-- Footer -->

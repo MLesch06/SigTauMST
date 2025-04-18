@@ -64,6 +64,10 @@ header {
     margin: 40px auto;
     padding: 0 20px;
   }
+
+  h1{
+    text-align: center;
+  }
   
   /* Member Card */
   .member-card {

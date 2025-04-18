@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social Media - Sigma Tau Gamma</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .social-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .social-container h1 {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      color: #00274d;
+    }
+
+    iframe.lightwidget-widget {
+      width: 100%;
+      min-height: 600px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <a href="index.html">
+      <img src="logo.png" alt="Fraternity Logo" class="logo" />
+    </a>
+    <nav>
+      <a href="about.html">About Us</a>
+      <a href="members.html">Active Members</a>
+      <a href="social.html">Social Media</a>
+    </nav>
+  </header>
+
+  <!-- Instagram Feed Section -->
+  <main class="social-container">
+    <h1>Follow Us on Instagram</h1>
+
+    <!-- Live Instagram Feed via LightWidget -->
+    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+    <iframe src="//lightwidget.com/widgets/876c8b96c24f5392a6b5b89e7ee81e51.html" 
+            scrolling="no" 
+            allowtransparency="true" 
+            class="lightwidget-widget" 
+            style="width:100%;border:0;overflow:hidden;">
+    </iframe>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Sigma Tau Gamma - Alpha Omega Chapter
+  </footer>
+
+</body>
+</html>

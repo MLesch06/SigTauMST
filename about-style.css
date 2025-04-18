@@ -17,23 +17,20 @@ body, html {
 header {
   background-color: #00274d; /* Navy Blue */
   color: white;
-  padding: 15px 30px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 header img.logo {
   height: 60px;
 }
-
 nav a {
   color: white;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
-
 nav a:hover {
   text-decoration: underline;
 }
@@ -51,6 +48,12 @@ nav a:hover {
   color: white;
   text-shadow: 2px 2px 4px #000;
   text-align: center;
+}
+
+.about-baner h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 2.5px;
 }
 
 /* Main Layout */
